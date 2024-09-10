@@ -1,0 +1,61 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 em {
+    color: deepskyblue;
+}
+
+.zapatillas {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+
+.zapatillas img {
+    height: 400px;
+}
+
+.zapatillas .textoUno {  
+    position: absolute; /* Posiciona el texto de manera absoluta dentro del contenedor */  
+    left: 25%; /* Ajusta la posición horizontal */  
+    transform: translate(-50%, -50%); /* Centra el texto */  
+    color: white; /* Color del texto */  
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */  
+    padding: 10px; /* Espaciado interno */  
+    border-radius: 5px; /* Esquinas redondeadas (opcional) */  
+}  
+
+.zapatillas .textoDos {  
+    position: absolute; /* Posiciona el texto de manera absoluta dentro del contenedor */  
+    left: 50%; /* Ajusta la posición horizontal */  
+    transform: translate(-50%, -50%); /* Centra el texto */  
+    color: white; /* Color del texto */  
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */  
+    padding: 10px; /* Espaciado interno */  
+    border-radius: 5px; /* Esquinas redondeadas (opcional) */  
+}  
+
+.zapatillas .textoTres {  
+    position: absolute; /* Posiciona el texto de manera absoluta dentro del contenedor */  
+    left: 77%; /* Ajusta la posición horizontal */  
+    transform: translate(-50%, -50%); /* Centra el texto */  
+    color: white; /* Color del texto */  
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para mejorar la legibilidad */  
+    padding: 10px; /* Espaciado interno */  
+    border-radius: 5px; /* Esquinas redondeadas (opcional) */  
+}
+
+.boton {
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+}
+
+.boton button {
+    cursor: pointer;
+}
